@@ -1,0 +1,154 @@
+INFO  - 2017-03-31 07:41:38.584; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2017-03-31 07:41:38.651; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /opt/solr-4.10.4/example/contexts at interval 0
+INFO  - 2017-03-31 07:41:38.659; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /opt/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2017-03-31 07:41:40.003; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-03-31 07:41:40.078; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2017-03-31 07:41:40.095; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2017-03-31 07:41:40.095; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /opt/solr-4.10.4/example/solr
+INFO  - 2017-03-31 07:41:40.096; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/opt/solr-4.10.4/example/solr/'
+INFO  - 2017-03-31 07:41:40.099; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-03-31 07:41:40.099; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-clustering-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.099; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-uima-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.100; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-analysis-extras-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.100; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-test-framework-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.100; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-morfologik-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.100; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-smartcn-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.104; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-03-31 07:41:40.110; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-morphlines-cell-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.111; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/morfologik-fsa-1.7.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.111; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-morphlines-core-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.111; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-velocity-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.111; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-03-31 07:41:40.112; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.112; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/ezsystems-ezfind-solr-extension-solr-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.112; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/morfologik-polish-1.7.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.112; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-dataimporthandler-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.112; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-cell-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.113; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-dataimporthandler-extras-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.113; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-map-reduce-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.113; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/icu4j-53.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.113; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-03-31 07:41:40.113; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-core-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.113; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-langid-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.114; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-solrj-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.114; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-03-31 07:41:40.114; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-03-31 07:41:40.114; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-icu-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.114; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-stempel-4.10.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.115; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-03-31 07:41:40.115; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/morfologik-stemming-1.7.1.jar' to classloader
+INFO  - 2017-03-31 07:41:40.115; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-03-31 07:41:40.115; org.apache.solr.core.SolrResourceLoader; Adding 'file:/opt/solr-4.10.4/example/solr/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-03-31 07:41:40.399; org.apache.solr.core.ConfigSolr; Loading container configuration from /opt/solr-4.10.4/example/solr/solr.xml
+INFO  - 2017-03-31 07:41:40.585; org.apache.solr.core.CoreContainer; New CoreContainer 899543194
+INFO  - 2017-03-31 07:41:40.587; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/opt/solr-4.10.4/example/solr/]
+INFO  - 2017-03-31 07:41:40.597; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2017-03-31 07:41:40.598; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2017-03-31 07:41:40.598; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2017-03-31 07:41:40.598; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2017-03-31 07:41:40.599; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2017-03-31 07:41:40.599; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2017-03-31 07:41:40.600; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2017-03-31 07:41:40.600; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2017-03-31 07:41:40.600; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2017-03-31 07:41:40.600; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2017-03-31 07:41:40.987; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2017-03-31 07:41:40.989; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2017-03-31 07:41:40.990; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2017-03-31 07:41:40.991; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2017-03-31 07:41:41.056; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/opt/solr-4.10.4/example/solr/ezp-default/'
+INFO  - 2017-03-31 07:41:41.270; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-03-31 07:41:41.280; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.1
+INFO  - 2017-03-31 07:41:41.494; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-03-31 07:41:41.515; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /opt/solr-4.10.4/example/solr/ezp-default/conf/schema.xml
+INFO  - 2017-03-31 07:41:41.605; org.apache.solr.schema.IndexSchema; [ezp-default] Schema name=ezfind
+INFO  - 2017-03-31 07:41:42.542; org.apache.solr.schema.IndexSchema; default search field in schema is ezf_df_text
+INFO  - 2017-03-31 07:41:42.543; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2017-03-31 07:41:42.544; org.apache.solr.schema.IndexSchema; unique key field: meta_guid_ms
+INFO  - 2017-03-31 07:41:42.716; org.apache.solr.core.CoreContainer; Creating SolrCore 'ezp-default' using configuration from instancedir /opt/solr-4.10.4/example/solr/ezp-default/
+INFO  - 2017-03-31 07:41:42.737; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-03-31 07:41:42.743; org.apache.solr.core.SolrCore; [ezp-default] Opening new SolrCore at /opt/solr-4.10.4/example/solr/ezp-default/, dataDir=/opt/solr-4.10.4/example/solr/ezp-default/data/
+INFO  - 2017-03-31 07:41:42.745; org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f94fa3e
+INFO  - 2017-03-31 07:41:42.764; org.apache.solr.core.SolrCore; [ezp-default] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2017-03-31 07:41:42.764; org.apache.solr.core.SolrCore; [ezp-default] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2017-03-31 07:41:42.778; org.apache.solr.core.CachingDirectoryFactory; return new directory for /opt/solr-4.10.4/example/solr/ezp-default/data
+INFO  - 2017-03-31 07:41:42.794; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/opt/solr-4.10.4/example/solr/ezp-default/data/index/
+INFO  - 2017-03-31 07:41:42.798; org.apache.solr.core.CachingDirectoryFactory; return new directory for /opt/solr-4.10.4/example/solr/ezp-default/data/index
+INFO  - 2017-03-31 07:41:42.812; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2017-03-31 07:41:42.816; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2017-03-31 07:41:42.817; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2017-03-31 07:41:42.818; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2017-03-31 07:41:42.819; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-03-31 07:41:42.906; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-03-31 07:41:42.923; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-03-31 07:41:42.924; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-03-31 07:41:42.924; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-03-31 07:41:42.925; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-03-31 07:41:42.928; org.apache.solr.core.RequestHandlers; created ezpublish: solr.SearchHandler
+INFO  - 2017-03-31 07:41:42.939; org.apache.solr.core.RequestHandlers; created standard: solr.SearchHandler
+INFO  - 2017-03-31 07:41:42.946; org.apache.solr.core.RequestHandlers; created ezfind: org.ezsystems.solr.handler.ezfind.eZFindRequestHandler
+INFO  - 2017-03-31 07:41:42.949; org.apache.solr.core.RequestHandlers; created /mlt: solr.MoreLikeThisHandler
+INFO  - 2017-03-31 07:41:42.949; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2017-03-31 07:41:42.957; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2017-03-31 07:41:42.958; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2017-03-31 07:41:42.961; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-03-31 07:41:42.961; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2017-03-31 07:41:42.962; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-03-31 07:41:42.963; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-03-31 07:41:42.967; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2017-03-31 07:41:42.968; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2017-03-31 07:41:42.968; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-03-31 07:41:42.968; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-03-31 07:41:42.971; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2017-03-31 07:41:42.977; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2017-03-31 07:41:42.981; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2017-03-31 07:41:42.994; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2017-03-31 07:41:43.004; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.005; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.005; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.006; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.006; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2017-03-31 07:41:43.006; org.apache.solr.core.RequestHandlers; created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2017-03-31 07:41:43.006; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.006; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.009; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.010; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2017-03-31 07:41:43.054; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-03-31 07:41:43.063; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-03-31 07:41:43.064; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-03-31 07:41:43.070; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-03-31 07:41:43.072; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-03-31 07:41:43.168; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-03-31 07:41:43.169; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-03-31 07:41:43.329; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/opt/solr-4.10.4/example/solr/ezp-default/data/index lockFactory=NativeFSLockFactory@/opt/solr-4.10.4/example/solr/ezp-default/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3fz,generation=4463}
+INFO  - 2017-03-31 07:41:43.333; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4463
+INFO  - 2017-03-31 07:41:43.518; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@7d28f0ce[ezp-default] main
+INFO  - 2017-03-31 07:41:43.531; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /opt/solr-4.10.4/example/solr/ezp-default/conf
+INFO  - 2017-03-31 07:41:43.531; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/opt/solr-4.10.4/example/solr/ezp-default/conf}
+INFO  - 2017-03-31 07:41:43.545; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/opt/solr-4.10.4/example/solr/ezp-default/conf
+INFO  - 2017-03-31 07:41:43.561; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/opt/solr-4.10.4/example/solr/ezp-default/conf
+INFO  - 2017-03-31 07:41:43.561; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2017-03-31 07:41:43.561; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2017-03-31 07:41:43.562; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-03-31 07:41:43.574; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=ezf_sp_words,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-03-31 07:41:43.593; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-03-31 07:41:43.594; org.apache.solr.handler.clustering.ClusteringComponent; Initializing Clustering Engines
+INFO  - 2017-03-31 07:41:43.650; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'lingo'
+INFO  - 2017-03-31 07:41:43.685; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'stc'
+INFO  - 2017-03-31 07:41:43.697; org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine; Initializing Clustering Engine 'kmeans'
+INFO  - 2017-03-31 07:41:43.716; org.apache.solr.handler.clustering.ClusteringComponent; Default engine for search results clustering: lingo
+INFO  - 2017-03-31 07:41:43.716; org.apache.solr.handler.clustering.ClusteringComponent; Finished Initializing Clustering Engines
+INFO  - 2017-03-31 07:41:43.717; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /opt/solr-4.10.4/example/solr/ezp-default/conf/elevate.xml
+INFO  - 2017-03-31 07:41:43.760; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-03-31 07:41:43.765; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@7d28f0ce[ezp-default] main{StandardDirectoryReader(segments_3fz:14440:nrt _3ua(4.10.4):C2214/3:delGen=2 _3ub(4.10.4):C1 _3uc(4.10.4):C1 _3ue(4.10.4):C2 _3uf(4.10.4):C1 _3ug(4.10.4):C1 _3ui(4.10.4):C1 _3uj(4.10.4):C2 _3ul(4.10.4):C1)}
+INFO  - 2017-03-31 07:41:43.917; org.apache.solr.core.SolrCore; [ezp-default] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=151 
+INFO  - 2017-03-31 07:41:43.917; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-03-31 07:41:43.917; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-03-31 07:41:43.918; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-03-31 07:41:43.919; org.apache.solr.core.SolrCore; [ezp-default] Registered new searcher Searcher@7d28f0ce[ezp-default] main{StandardDirectoryReader(segments_3fz:14440:nrt _3ua(4.10.4):C2214/3:delGen=2 _3ub(4.10.4):C1 _3uc(4.10.4):C1 _3ue(4.10.4):C2 _3uf(4.10.4):C1 _3ug(4.10.4):C1 _3ui(4.10.4):C1 _3uj(4.10.4):C2 _3ul(4.10.4):C1)}
+INFO  - 2017-03-31 07:41:43.923; org.apache.solr.core.CoreContainer; registering core: ezp-default
+INFO  - 2017-03-31 07:41:43.924; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/opt/solr-4.10.4/example
+INFO  - 2017-03-31 07:41:43.924; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2017-03-31 07:41:43.965; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2017-03-31 09:31:32.125; org.apache.solr.core.SolrCore; [ezp-default] webapp=/solr path=/select params={qt=ezpublish&hl=true&indent=on&fl=meta_guid_ms+meta_installation_id_ms+meta_main_url_alias_ms+meta_installation_url_ms+meta_id_si+meta_main_node_id_si+meta_language_code_ms+meta_name_t+score+meta_published_dt+meta_path_string_ms+meta_main_path_string_ms+meta_is_invisible_b+[elevated]+&hl.requireFieldMatch=true&start=0&hl.fragsize=200&sort=score+desc&fq=meta_path_si:2&fq=((meta_installation_id_ms:5e017d2375dc39c2a1f82a283eabfa35+AND+((+(+meta_section_id_si:1+OR+meta_section_id_si:3+))))++)+AND+meta_is_invisible_b:false&fq=meta_contentclass_id_si:14+OR+meta_contentclass_id_si:22+OR+meta_contentclass_id_si:18+OR+meta_contentclass_id_si:2&fq=meta_language_code_ms:ger-DE&rows=100&version=2.2&hl.simple.pre=<b>&bq=meta_installation_id_ms:5e017d2375dc39c2a1f82a283eabfa35^1.5+meta_language_code_ms:ger-DE^1.2&hl.snippets=1&q=fqi&forceElevation=false&enableElevation=true&hl.simple.post=</b>&qf=attr_box_name_t+attr_comb_name_t+attr_content_type_t+attr_name_t+attr_process_owner_t+attr_section_t+attr_teaser_t+attr_url_t+attr_xml_block_t+attr_xml_content_t+meta_name_t+meta_owner_name_t&clustering=false&hl.fl=attr_box_name_t+attr_comb_name_t+attr_content_type_t+attr_name_t+attr_process_owner_t+attr_section_t+attr_teaser_t+attr_url_t+attr_xml_block_t+attr_xml_content_t&wt=php} hits=648 status=0 QTime=3913 

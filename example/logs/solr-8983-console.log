@@ -1,0 +1,154 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+67   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /opt/solr-4.10.4/example/contexts at interval 0
+75   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /opt/solr-4.10.4/example/contexts/solr-jetty-context.xml
+1419 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1494 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+1511 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+1511 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /opt/solr-4.10.4/example/solr
+1512 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/opt/solr-4.10.4/example/solr/'
+1515 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+1515 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-clustering-4.10.1.jar' to classloader
+1515 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-uima-4.10.1.jar' to classloader
+1516 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-analysis-extras-4.10.1.jar' to classloader
+1516 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-test-framework-4.10.1.jar' to classloader
+1516 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-morfologik-4.10.1.jar' to classloader
+1516 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-smartcn-4.10.1.jar' to classloader
+1520 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/mahout-collections-1.0.jar' to classloader
+1526 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-morphlines-cell-4.10.1.jar' to classloader
+1527 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/morfologik-fsa-1.7.1.jar' to classloader
+1527 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-morphlines-core-4.10.1.jar' to classloader
+1527 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-velocity-4.10.1.jar' to classloader
+1527 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/carrot2-mini-3.9.0.jar' to classloader
+1528 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/attributes-binder-1.2.1.jar' to classloader
+1528 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/ezsystems-ezfind-solr-extension-solr-4.10.1.jar' to classloader
+1528 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/morfologik-polish-1.7.1.jar' to classloader
+1528 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-dataimporthandler-4.10.1.jar' to classloader
+1528 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-cell-4.10.1.jar' to classloader
+1529 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-dataimporthandler-extras-4.10.1.jar' to classloader
+1529 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-map-reduce-4.10.1.jar' to classloader
+1529 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/icu4j-53.1.jar' to classloader
+1529 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/mahout-math-0.6.jar' to classloader
+1529 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-core-4.10.1.jar' to classloader
+1529 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-langid-4.10.1.jar' to classloader
+1530 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/solr-solrj-4.10.1.jar' to classloader
+1530 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/jsonic-1.2.7.jar' to classloader
+1530 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/hppc-0.5.2.jar' to classloader
+1530 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-icu-4.10.1.jar' to classloader
+1530 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/lucene-analyzers-stempel-4.10.1.jar' to classloader
+1531 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/simple-xml-2.7.jar' to classloader
+1531 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/morfologik-stemming-1.7.1.jar' to classloader
+1531 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/langdetect-1.1-20120112.jar' to classloader
+1531 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/opt/solr-4.10.4/example/solr/lib/jackson-core-asl-1.9.13.jar' to classloader
+1815 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /opt/solr-4.10.4/example/solr/solr.xml
+2001 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 899543194
+2003 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/opt/solr-4.10.4/example/solr/]
+2013 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+2014 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+2014 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+2014 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+2015 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+2015 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+2016 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+2016 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+2016 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+2016 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting useRetries to: false
+2403 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+2405 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2406 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2407 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: null
+2472 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/opt/solr-4.10.4/example/solr/ezp-default/'
+2686 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.SolrIndexConfig  – IndexWriter infoStream solr logging is enabled
+2696 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.10.1
+2910 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+2931 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /opt/solr-4.10.4/example/solr/ezp-default/conf/schema.xml
+3021 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [ezp-default] Schema name=ezfind
+3958 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is ezf_df_text
+3959 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
+3960 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: meta_guid_ms
+4132 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'ezp-default' using configuration from instancedir /opt/solr-4.10.4/example/solr/ezp-default/
+4153 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.NRTCachingDirectoryFactory
+4159 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [ezp-default] Opening new SolrCore at /opt/solr-4.10.4/example/solr/ezp-default/, dataDir=/opt/solr-4.10.4/example/solr/ezp-default/data/
+4161 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.JmxMonitoredMap  – JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f94fa3e
+4180 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [ezp-default] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+4180 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [ezp-default] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+4194 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /opt/solr-4.10.4/example/solr/ezp-default/data
+4210 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/opt/solr-4.10.4/example/solr/ezp-default/data/index/
+4214 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /opt/solr-4.10.4/example/solr/ezp-default/data/index
+4228 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – created json: solr.JSONResponseWriter
+4232 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – adding lazy queryResponseWriter: solr.VelocityResponseWriter
+4233 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – created velocity: solr.VelocityResponseWriter
+4234 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – created xslt: solr.XSLTResponseWriter
+4235 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.response.XSLTResponseWriter  – xsltCacheLifetimeSeconds=5
+4322 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+4339 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+4340 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+4340 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+4341 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+4344 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created ezpublish: solr.SearchHandler
+4355 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.SearchHandler
+4362 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created ezfind: org.ezsystems.solr.handler.ezfind.eZFindRequestHandler
+4365 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /mlt: solr.MoreLikeThisHandler
+4365 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /query: solr.SearchHandler
+4373 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
+4374 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /browse: solr.SearchHandler
+4377 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+4377 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+4378 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+4379 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/extract: solr.extraction.ExtractingRequestHandler
+4383 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+4384 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+4384 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+4384 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/document: solr.DocumentAnalysisRequestHandler
+4387 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: solr.admin.AdminHandlers
+4393 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+4397 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /debug/dump: solr.DumpRequestHandler
+4410 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+4420 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.SearchHandler
+4421 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /spell: solr.SearchHandler
+4421 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.SearchHandler
+4422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /tvrh: solr.SearchHandler
+4422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+4422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+4422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.SearchHandler
+4422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /terms: solr.SearchHandler
+4425 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.SearchHandler
+4426 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /elevate: solr.SearchHandler
+4470 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4479 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4480 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4486 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4488 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4584 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: if uncommited for 15000ms; 
+4585 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+4745 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/opt/solr-4.10.4/example/solr/ezp-default/data/index lockFactory=NativeFSLockFactory@/opt/solr-4.10.4/example/solr/ezp-default/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3fz,generation=4463}
+4749 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 4463
+4934 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@7d28f0ce[ezp-default] main
+4947 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /opt/solr-4.10.4/example/solr/ezp-default/conf
+4947 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/opt/solr-4.10.4/example/solr/ezp-default/conf}
+4961 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/opt/solr-4.10.4/example/solr/ezp-default/conf
+4977 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/opt/solr-4.10.4/example/solr/ezp-default/conf
+4977 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+4977 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+4978 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
+4990 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.spelling.DirectSolrSpellChecker  – init: {name=default,field=ezf_sp_words,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+5009 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
+5010 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.clustering.ClusteringComponent  – Initializing Clustering Engines
+5066 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine  – Initializing Clustering Engine 'lingo'
+5101 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine  – Initializing Clustering Engine 'stc'
+5113 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine  – Initializing Clustering Engine 'kmeans'
+5132 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.clustering.ClusteringComponent  – Default engine for search results clustering: lingo
+5132 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.clustering.ClusteringComponent  – Finished Initializing Clustering Engines
+5133 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.QueryElevationComponent  – Loading QueryElevation from: /opt/solr-4.10.4/example/solr/ezp-default/conf/elevate.xml
+5176 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.ReplicationHandler  – Commits will be reserved for  10000
+5181 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – QuerySenderListener sending requests to Searcher@7d28f0ce[ezp-default] main{StandardDirectoryReader(segments_3fz:14440:nrt _3ua(4.10.4):C2214/3:delGen=2 _3ub(4.10.4):C1 _3uc(4.10.4):C1 _3ue(4.10.4):C2 _3uf(4.10.4):C1 _3ug(4.10.4):C1 _3ui(4.10.4):C1 _3uj(4.10.4):C2 _3ul(4.10.4):C1)}
+5333 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [ezp-default] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=151 
+5333 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – QuerySenderListener done.
+5333 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Loading spell index for spellchecker: default
+5334 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Loading spell index for spellchecker: wordbreak
+5335 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [ezp-default] Registered new searcher Searcher@7d28f0ce[ezp-default] main{StandardDirectoryReader(segments_3fz:14440:nrt _3ua(4.10.4):C2214/3:delGen=2 _3ub(4.10.4):C1 _3uc(4.10.4):C1 _3ue(4.10.4):C2 _3uf(4.10.4):C1 _3ug(4.10.4):C1 _3ui(4.10.4):C1 _3uj(4.10.4):C2 _3ul(4.10.4):C1)}
+5339 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: ezp-default
+5340 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/opt/solr-4.10.4/example
+5340 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+5381 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+6593541 [qtp1816757085-23] INFO  org.apache.solr.core.SolrCore  – [ezp-default] webapp=/solr path=/select params={qt=ezpublish&hl=true&indent=on&fl=meta_guid_ms+meta_installation_id_ms+meta_main_url_alias_ms+meta_installation_url_ms+meta_id_si+meta_main_node_id_si+meta_language_code_ms+meta_name_t+score+meta_published_dt+meta_path_string_ms+meta_main_path_string_ms+meta_is_invisible_b+[elevated]+&hl.requireFieldMatch=true&start=0&hl.fragsize=200&sort=score+desc&fq=meta_path_si:2&fq=((meta_installation_id_ms:5e017d2375dc39c2a1f82a283eabfa35+AND+((+(+meta_section_id_si:1+OR+meta_section_id_si:3+))))++)+AND+meta_is_invisible_b:false&fq=meta_contentclass_id_si:14+OR+meta_contentclass_id_si:22+OR+meta_contentclass_id_si:18+OR+meta_contentclass_id_si:2&fq=meta_language_code_ms:ger-DE&rows=100&version=2.2&hl.simple.pre=<b>&bq=meta_installation_id_ms:5e017d2375dc39c2a1f82a283eabfa35^1.5+meta_language_code_ms:ger-DE^1.2&hl.snippets=1&q=fqi&forceElevation=false&enableElevation=true&hl.simple.post=</b>&qf=attr_box_name_t+attr_comb_name_t+attr_content_type_t+attr_name_t+attr_process_owner_t+attr_section_t+attr_teaser_t+attr_url_t+attr_xml_block_t+attr_xml_content_t+meta_name_t+meta_owner_name_t&clustering=false&hl.fl=attr_box_name_t+attr_comb_name_t+attr_content_type_t+attr_name_t+attr_process_owner_t+attr_section_t+attr_teaser_t+attr_url_t+attr_xml_block_t+attr_xml_content_t&wt=php} hits=648 status=0 QTime=3913 
